@@ -1,0 +1,27 @@
+-- New 10 students with birthdates in 2009
+INSERT INTO students (student_id, address, admission_date, date_of_birth, email, gender, name, phone_number, profile_pic) VALUES
+(10061, '5858 Street, City, State', '2024-01-01', '2009-01-11', 'rajesh.malik@gmail.com', 'Male', 'Rajesh Malik', '1234567861', 'profile61.jpg'),
+(10062, '5959 Street, City, State', '2024-01-01', '2009-02-15', 'anupriya.malhotra@gmail.com', 'Female', 'Anupriya Malhotra', '1234567862', 'profile62.jpg'),
+(10063, '6060 Street, City, State', '2024-01-01', '2009-03-22', 'karan.sharma@gmail.com', 'Male', 'Karan Sharma', '1234567863', 'profile63.jpg'),
+(10064, '6161 Street, City, State', '2024-01-01', '2009-04-29', 'neha.patel@gmail.com', 'Female', 'Neha Patel', '1234567864', 'profile64.jpg'),
+(10065, '6262 Street, City, State', '2024-01-01', '2009-05-18', 'rohit.yadav@gmail.com', 'Male', 'Rohit Yadav', '1234567865', 'profile65.jpg'),
+(10066, '6363 Street, City, State', '2024-01-01', '2009-06-24', 'divya.agarwal@gmail.com', 'Female', 'Divya Agarwal', '1234567866', 'profile66.jpg'),
+(10067, '6464 Street, City, State', '2024-01-01', '2009-07-30', 'manish.jha@gmail.com', 'Male', 'Manish Jha', '1234567867', 'profile67.jpg'),
+(10068, '6565 Street, City, State', '2024-01-01', '2009-08-18', 'pallavi.shukla@gmail.com', 'Female', 'Pallavi Shukla', '1234567868', 'profile68.jpg'),
+(10069, '6666 Street, City, State', '2024-01-01', '2009-09-23', 'vikas.singh@gmail.com', 'Male', 'Vikas Singh', '1234567869', 'profile69.jpg'),
+(10070, '6767 Street, City, State', '2024-01-01', '2009-10-17', 'kanika.sharma@gmail.com', 'Female', 'Kanika Sharma', '1234567870', 'profile70.jpg');
+
+
+
+-- New 10 parents
+INSERT INTO parents (parent_id, address, email, name, phone_number, suggestions, student_id) VALUES
+(20061, '5858 Street, City, State', 'rajesh.malik@gmail.com', 'Sunil Malik', '9876543261', 'None', 10061),
+(20062, '5959 Street, City, State', 'anupriya.malhotra@gmail.com', 'Poonam Malhotra', '9876543262', 'None', 10062),
+(20063, '6060 Street, City, State', 'karan.sharma@gmail.com', 'Ravi Sharma', '9876543263', 'None', 10063),
+(20064, '6161 Street, City, State', 'neha.patel@gmail.com', 'Sanjay Patel', '9876543264', 'None', 10064),
+(20065, '6262 Street, City, State', 'rohit.yadav@gmail.com', 'Meera Yadav', '9876543265', 'None', 10065),
+(20066, '6363 Street, City, State', 'divya.agarwal@gmail.com', 'Rajesh Agarwal', '9876543266', 'None', 10066),
+(20067, '6464 Street, City, State', 'manish.jha@gmail.com', 'Sunita Jha', '9876543267', 'None', 10067),
+(20068, '6565 Street, City, State', 'pallavi.shukla@gmail.com', 'Rajeev Shukla', '9876543268', 'None', 10068),
+(20069, '6666 Street, City, State', 'vikas.singh@gmail.com', 'Suman Singh', '9876543269', 'None', 10069),
+(20070, '6767 Street, City, State', 'kanika.sharma@gmail.com', 'Amit Sharma', '9876543270', 'None', 10070);

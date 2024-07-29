@@ -1,0 +1,381 @@
+-- New 10 students with birthdates in 2018
+INSERT INTO students (student_id, address, admission_date, date_of_birth, email, gender, name, phone_number, profile_pic) VALUES
+(10101, '8898 Street, City, State', '2024-01-01', '2018-01-15', 'aarav.singh@gmail.com', 'Male', 'Aarav Singh', '1234567811', 'profile101.jpg'),
+(10102, '8999 Street, City, State', '2024-01-01', '2018-02-22', 'ivaan.sharma@gmail.com', 'Male', 'Ivaan Sharma', '1234567812', 'profile102.jpg'),
+(10103, '9090 Street, City, State', '2024-01-01', '2018-03-30', 'isha.kumar@gmail.com', 'Female', 'Isha Kumar', '1234567813', 'profile103.jpg'),
+(10104, '9191 Street, City, State', '2024-01-01', '2018-04-25', 'kabir.patel@gmail.com', 'Male', 'Kabir Patel', '1234567814', 'profile104.jpg'),
+(10105, '9292 Street, City, State', '2024-01-01', '2018-05-12', 'ananya.jain@gmail.com', 'Female', 'Ananya Jain', '1234567815', 'profile105.jpg'),
+(10106, '9393 Street, City, State', '2024-01-01', '2018-06-17', 'vivaan.agarwal@gmail.com', 'Male', 'Vivaan Agarwal', '1234567816', 'profile106.jpg'),
+(10107, '9494 Street, City, State', '2024-01-01', '2018-07-20', 'priya.mehta@gmail.com', 'Female', 'Priya Mehta', '1234567817', 'profile107.jpg'),
+(10108, '9595 Street, City, State', '2024-01-01', '2018-08-22', 'aditya.verma@gmail.com', 'Male', 'Aditya Verma', '1234567818', 'profile108.jpg'),
+(10109, '9696 Street, City, State', '2024-01-01', '2018-09-15', 'sanya.bhatia@gmail.com', 'Female', 'Sanya Bhatia', '1234567819', 'profile109.jpg'),
+(10110, '9797 Street, City, State', '2024-01-01', '2018-10-05', 'arjun.ravi@gmail.com', 'Male', 'Arjun Ravi', '1234567820', 'profile110.jpg');
+
+
+
+-- New 10 parents
+INSERT INTO parents (parent_id, address, email, name, phone_number, suggestions, student_id) VALUES
+(20101, '8898 Street, City, State', 'aarav.singh@gmail.com', 'Ravi Singh', '9876543311', 'None', 10101),
+(20102, '8999 Street, City, State', 'ivaan.sharma@gmail.com', 'Meera Sharma', '9876543312', 'None', 10102),
+(20103, '9090 Street, City, State', 'isha.kumar@gmail.com', 'Raj Kumar', '9876543313', 'None', 10103),
+(20104, '9191 Street, City, State', 'kabir.patel@gmail.com', 'Sunita Patel', '9876543314', 'None', 10104),
+(20105, '9292 Street, City, State', 'ananya.jain@gmail.com', 'Vikram Jain', '9876543315', 'None', 10105),
+(20106, '9393 Street, City, State', 'vivaan.agarwal@gmail.com', 'Anita Agarwal', '9876543316', 'None', 10106),
+(20107, '9494 Street, City, State', 'priya.mehta@gmail.com', 'Rajesh Mehta', '9876543317', 'None', 10107),
+(20108, '9595 Street, City, State', 'aditya.verma@gmail.com', 'Pooja Verma', '9876543318', 'None', 10108),
+(20109, '9696 Street, City, State', 'sanya.bhatia@gmail.com', 'Ravi Bhatia', '9876543319', 'None', 10109),
+(20110, '9797 Street, City, State', 'arjun.ravi@gmail.com', 'Neelam Ravi', '9876543320', 'None', 10110);
+
+
+-- New 10 students with birthdates in 2017
+INSERT INTO students (student_id, address, admission_date, date_of_birth, email, gender, name, phone_number, profile_pic) VALUES
+(10091, '7878 Street, City, State', '2024-01-01', '2017-01-12', 'neha.patel@gmail.com', 'Female', 'Neha Patel', '1234567891', 'profile91.jpg'),
+(10092, '7979 Street, City, State', '2024-01-01', '2017-02-17', 'karan.ravi@gmail.com', 'Male', 'Karan Ravi', '1234567892', 'profile92.jpg'),
+(10093, '8080 Street, City, State', '2024-01-01', '2017-03-25', 'riya.agarwal@gmail.com', 'Female', 'Riya Agarwal', '1234567893', 'profile93.jpg'),
+(10094, '8181 Street, City, State', '2024-01-01', '2017-04-30', 'ajay.verma@gmail.com', 'Male', 'Ajay Verma', '1234567894', 'profile94.jpg'),
+(10095, '8282 Street, City, State', '2024-01-01', '2017-05-20', 'nisha.joshi@gmail.com', 'Female', 'Nisha Joshi', '1234567895', 'profile95.jpg'),
+(10096, '8383 Street, City, State', '2024-01-01', '2017-06-18', 'pranav.singh@gmail.com', 'Male', 'Pranav Singh', '1234567896', 'profile96.jpg'),
+(10097, '8484 Street, City, State', '2024-01-01', '2017-07-22', 'shweta.bhatia@gmail.com', 'Female', 'Shweta Bhatia', '1234567897', 'profile97.jpg'),
+(10098, '8585 Street, City, State', '2024-01-01', '2017-08-14', 'rohit.sharma@gmail.com', 'Male', 'Rohit Sharma', '1234567898', 'profile98.jpg'),
+(10099, '8686 Street, City, State', '2024-01-01', '2017-09-11', 'komal.mehta@gmail.com', 'Female', 'Komal Mehta', '1234567899', 'profile99.jpg'),
+(10100, '8787 Street, City, State', '2024-01-01', '2017-10-05', 'deepak.kumar@gmail.com', 'Male', 'Deepak Kumar', '1234567800', 'profile100.jpg');
+
+
+
+-- New 10 parents
+INSERT INTO parents (parent_id, address, email, name, phone_number, suggestions, student_id) VALUES
+(20091, '7878 Street, City, State', 'neha.patel@gmail.com', 'Anil Patel', '9876543291', 'None', 10091),
+(20092, '7979 Street, City, State', 'karan.ravi@gmail.com', 'Poonam Ravi', '9876543292', 'None', 10092),
+(20093, '8080 Street, City, State', 'riya.agarwal@gmail.com', 'Rajesh Agarwal', '9876543293', 'None', 10093),
+(20094, '8181 Street, City, State', 'ajay.verma@gmail.com', 'Rekha Verma', '9876543294', 'None', 10094),
+(20095, '8282 Street, City, State', 'nisha.joshi@gmail.com', 'Suresh Joshi', '9876543295', 'None', 10095),
+(20096, '8383 Street, City, State', 'pranav.singh@gmail.com', 'Suman Singh', '9876543296', 'None', 10096),
+(20097, '8484 Street, City, State', 'shweta.bhatia@gmail.com', 'Ravi Bhatia', '9876543297', 'None', 10097),
+(20098, '8585 Street, City, State', 'rohit.sharma@gmail.com', 'Sunita Sharma', '9876543298', 'None', 10098),
+(20099, '8686 Street, City, State', 'komal.mehta@gmail.com', 'Raj Mehta', '9876543299', 'None', 10099),
+(20100, '8787 Street, City, State', 'deepak.kumar@gmail.com', 'Anju Kumar', '9876543300', 'None', 10100);
+
+
+-- New 10 students with birthdates in 2016
+INSERT INTO students (student_id, address, admission_date, date_of_birth, email, gender, name, phone_number, profile_pic) VALUES
+(10081, '6868 Street, City, State', '2024-01-01', '2016-01-10', 'aakash.sharma@gmail.com', 'Male', 'Aakash Sharma', '1234567881', 'profile81.jpg'),
+(10082, '6969 Street, City, State', '2024-01-01', '2016-02-14', 'shreya.mishra@gmail.com', 'Female', 'Shreya Mishra', '1234567882', 'profile82.jpg'),
+(10083, '7070 Street, City, State', '2024-01-01', '2016-03-21', 'vivek.kumar@gmail.com', 'Male', 'Vivek Kumar', '1234567883', 'profile83.jpg'),
+(10084, '7171 Street, City, State', '2024-01-01', '2016-04-28', 'isha.singh@gmail.com', 'Female', 'Isha Singh', '1234567884', 'profile84.jpg'),
+(10085, '7272 Street, City, State', '2024-01-01', '2016-05-19', 'arjun.kapoor@gmail.com', 'Male', 'Arjun Kapoor', '1234567885', 'profile85.jpg'),
+(10086, '7373 Street, City, State', '2024-01-01', '2016-06-25', 'richa.jain@gmail.com', 'Female', 'Richa Jain', '1234567886', 'profile86.jpg'),
+(10087, '7474 Street, City, State', '2024-01-01', '2016-07-30', 'rajeshwari.singh@gmail.com', 'Female', 'Rajeshwari Singh', '1234567887', 'profile87.jpg'),
+(10088, '7575 Street, City, State', '2024-01-01', '2016-08-15', 'abhishek.sharma@gmail.com', 'Male', 'Abhishek Sharma', '1234567888', 'profile88.jpg'),
+(10089, '7676 Street, City, State', '2024-01-01', '2016-09-20', 'priya.malhotra@gmail.com', 'Female', 'Priya Malhotra', '1234567889', 'profile89.jpg'),
+(10090, '7777 Street, City, State', '2024-01-01', '2016-10-22', 'sumit.kumar@gmail.com', 'Male', 'Sumit Kumar', '1234567890', 'profile90.jpg');
+
+
+
+-- New 10 parents
+INSERT INTO parents (parent_id, address, email, name, phone_number, suggestions, student_id) VALUES
+(20081, '6868 Street, City, State', 'aakash.sharma@gmail.com', 'Rajesh Sharma', '9876543281', 'None', 10081),
+(20082, '6969 Street, City, State', 'shreya.mishra@gmail.com', 'Meena Mishra', '9876543282', 'None', 10082),
+(20083, '7070 Street, City, State', 'vivek.kumar@gmail.com', 'Sanjay Kumar', '9876543283', 'None', 10083),
+(20084, '7171 Street, City, State', 'isha.singh@gmail.com', 'Ravi Singh', '9876543284', 'None', 10084),
+(20085, '7272 Street, City, State', 'arjun.kapoor@gmail.com', 'Seema Kapoor', '9876543285', 'None', 10085),
+(20086, '7373 Street, City, State', 'richa.jain@gmail.com', 'Anil Jain', '9876543286', 'None', 10086),
+(20087, '7474 Street, City, State', 'rajeshwari.singh@gmail.com', 'Pooja Singh', '9876543287', 'None', 10087),
+(20088, '7575 Street, City, State', 'abhishek.sharma@gmail.com', 'Kiran Sharma', '9876543288', 'None', 10088),
+(20089, '7676 Street, City, State', 'priya.malhotra@gmail.com', 'Vikram Malhotra', '9876543289', 'None', 10089),
+(20090, '7777 Street, City, State', 'sumit.kumar@gmail.com', 'Nisha Kumar', '9876543290', 'None', 10090);
+
+
+INSERT INTO students (student_id, address, admission_date, date_of_birth, email, gender, name, phone_number, profile_pic) VALUES
+(10001, '123 Street, City, State', '2024-01-01', '2015-04-10', 'student1@example.com', 'Male', 'Aarav Sharma', '1234567890', 'profile1.jpg'),
+(10002, '456 Street, City, State', '2024-01-01', '2015-05-12', 'student2@example.com', 'Female', 'Isha Patel', '1234567891', 'profile2.jpg'),
+(10003, '789 Street, City, State', '2024-01-01', '2015-06-23', 'student3@example.com', 'Male', 'Vivaan Gupta', '1234567892', 'profile3.jpg'),
+(10004, '101 Street, City, State', '2024-01-01', '2015-07-30', 'student4@example.com', 'Female', 'Saanvi Rao', '1234567893', 'profile4.jpg'),
+(10005, '202 Street, City, State', '2024-01-01', '2015-08-15', 'student5@example.com', 'Male', 'Arjun Mehta', '1234567894', 'profile5.jpg'),
+(10006, '303 Street, City, State', '2024-01-01', '2015-09-10', 'student6@example.com', 'Female', 'Ananya Kumar', '1234567895', 'profile6.jpg'),
+(10007, '404 Street, City, State', '2024-01-01', '2015-10-22', 'student7@example.com', 'Male', 'Ayaan Singh', '1234567896', 'profile7.jpg'),
+(10008, '505 Street, City, State', '2024-01-01', '2015-11-30', 'student8@example.com', 'Female', 'Diya Verma', '1234567897', 'profile8.jpg'),
+(10009, '606 Street, City, State', '2024-01-01', '2015-12-12', 'student9@example.com', 'Male', 'Kabir Joshi', '1234567898', 'profile9.jpg'),
+(10010, '707 Street, City, State', '2024-01-01', '2015-12-25', 'student10@example.com', 'Female', 'Mira Sharma', '1234567899', 'profile10.jpg');
+
+
+
+INSERT INTO parents (parent_id, address, email, name, phone_number, suggestions, student_id) VALUES
+(20001, '123 Street, City, State', 'parent1@example.com', 'Rajesh Sharma', '9876543210', 'None', 10001),
+(20002, '456 Street, City, State', 'parent2@example.com', 'Sita Patel', '9876543211', 'None', 10002),
+(20003, '789 Street, City, State', 'parent3@example.com', 'Ravi Gupta', '9876543212', 'None', 10003),
+(20004, '101 Street, City, State', 'parent4@example.com', 'Neeta Rao', '9876543213', 'None', 10004),
+(20005, '202 Street, City, State', 'parent5@example.com', 'Sunil Mehta', '9876543214', 'None', 10005),
+(20006, '303 Street, City, State', 'parent6@example.com', 'Kiran Kumar', '9876543215', 'None', 10006),
+(20007, '404 Street, City, State', 'parent7@example.com', 'Rakesh Singh', '9876543216', 'None', 10007),
+(20008, '505 Street, City, State', 'parent8@example.com', 'Sunita Verma', '9876543217', 'None', 10008),
+(20009, '606 Street, City, State', 'parent9@example.com', 'Arun Joshi', '9876543218', 'None', 10009),
+(20010, '707 Street, City, State', 'parent10@example.com', 'Rekha Sharma', '9876543219', 'None', 10010);
+
+
+
+-- New 10 students
+INSERT INTO students (student_id, address, admission_date, date_of_birth, email, gender, name, phone_number, profile_pic) VALUES
+(10011, '808 Street, City, State', '2024-01-01', '2014-01-15', 'student11@example.com', 'Male', 'Aarav Patel', '1234567811', 'profile11.jpg'),
+(10012, '909 Street, City, State', '2024-01-01', '2014-02-22', 'student12@example.com', 'Female', 'Isha Verma', '1234567812', 'profile12.jpg'),
+(10013, '1010 Street, City, State', '2024-01-01', '2014-03-10', 'student13@example.com', 'Male', 'Vivaan Mehta', '1234567813', 'profile13.jpg'),
+(10014, '1111 Street, City, State', '2024-01-01', '2014-04-25', 'student14@example.com', 'Female', 'Saanvi Kumar', '1234567814', 'profile14.jpg'),
+(10015, '1212 Street, City, State', '2024-01-01', '2014-05-18', 'student15@example.com', 'Male', 'Arjun Rao', '1234567815', 'profile15.jpg'),
+(10016, '1313 Street, City, State', '2024-01-01', '2014-06-09', 'student16@example.com', 'Female', 'Ananya Singh', '1234567816', 'profile16.jpg'),
+(10017, '1414 Street, City, State', '2024-01-01', '2014-07-30', 'student17@example.com', 'Male', 'Ayaan Joshi', '1234567817', 'profile17.jpg'),
+(10018, '1515 Street, City, State', '2024-01-01', '2014-08-15', 'student18@example.com', 'Female', 'Diya Sharma', '1234567818', 'profile18.jpg'),
+(10019, '1616 Street, City, State', '2024-01-01', '2014-09-12', 'student19@example.com', 'Male', 'Kabir Patel', '1234567819', 'profile19.jpg'),
+(10020, '1717 Street, City, State', '2024-01-01', '2014-10-25', 'student20@example.com', 'Female', 'Mira Verma', '1234567820', 'profile20.jpg');
+
+
+
+-- New 10 parents
+INSERT INTO parents (parent_id, address, email, name, phone_number, suggestions, student_id) VALUES
+(20011, '808 Street, City, State', 'parent11@example.com', 'Rajesh Patel', '9876543211', 'None', 10011),
+(20012, '909 Street, City, State', 'parent12@example.com', 'Sita Verma', '9876543212', 'None', 10012),
+(20013, '1010 Street, City, State', 'parent13@example.com', 'Ravi Mehta', '9876543213', 'None', 10013),
+(20014, '1111 Street, City, State', 'parent14@example.com', 'Neeta Kumar', '9876543214', 'None', 10014),
+(20015, '1212 Street, City, State', 'parent15@example.com', 'Sunil Rao', '9876543215', 'None', 10015),
+(20016, '1313 Street, City, State', 'parent16@example.com', 'Kiran Singh', '9876543216', 'None', 10016),
+(20017, '1414 Street, City, State', 'parent17@example.com', 'Rakesh Joshi', '9876543217', 'None', 10017),
+(20018, '1515 Street, City, State', 'parent18@example.com', 'Sunita Sharma', '9876543218', 'None', 10018),
+(20019, '1616 Street, City, State', 'parent19@example.com', 'Arun Patel', '9876543219', 'None', 10019),
+(20020, '1717 Street, City, State', 'parent20@example.com', 'Rekha Verma', '9876543220', 'None', 10020);
+
+
+
+-- New 10 students with birthdates in 2013
+INSERT INTO students (student_id, address, admission_date, date_of_birth, email, gender, name, phone_number, profile_pic) VALUES
+(10021, '1818 Street, City, State', '2024-01-01', '2013-01-12', 'student21@example.com', 'Male', 'Aryan Patel', '1234567821', 'profile21.jpg'),
+(10022, '1919 Street, City, State', '2024-01-01', '2013-02-25', 'student22@example.com', 'Female', 'Kavya Verma', '1234567822', 'profile22.jpg'),
+(10023, '2020 Street, City, State', '2024-01-01', '2013-03-15', 'student23@example.com', 'Male', 'Rohan Mehta', '1234567823', 'profile23.jpg'),
+(10024, '2121 Street, City, State', '2024-01-01', '2013-04-20', 'student24@example.com', 'Female', 'Ira Kumar', '1234567824', 'profile24.jpg'),
+(10025, '2222 Street, City, State', '2024-01-01', '2013-05-22', 'student25@example.com', 'Male', 'Vivaan Rao', '1234567825', 'profile25.jpg'),
+(10026, '2323 Street, City, State', '2024-01-01', '2013-06-10', 'student26@example.com', 'Female', 'Aadhya Singh', '1234567826', 'profile26.jpg'),
+(10027, '2424 Street, City, State', '2024-01-01', '2013-07-14', 'student27@example.com', 'Male', 'Reyansh Joshi', '1234567827', 'profile27.jpg'),
+(10028, '2525 Street, City, State', '2024-01-01', '2013-08-18', 'student28@example.com', 'Female', 'Kiara Sharma', '1234567828', 'profile28.jpg'),
+(10029, '2626 Street, City, State', '2024-01-01', '2013-09-23', 'student29@example.com', 'Male', 'Aditya Patel', '1234567829', 'profile29.jpg'),
+(10030, '2727 Street, City, State', '2024-01-01', '2013-10-30', 'student30@example.com', 'Female', 'Meera Verma', '1234567830', 'profile30.jpg');
+
+
+
+-- New 10 parents
+INSERT INTO parents (parent_id, address, email, name, phone_number, suggestions, student_id) VALUES
+(20021, '1818 Street, City, State', 'parent21@example.com', 'Vikram Patel', '9876543221', 'None', 10021),
+(20022, '1919 Street, City, State', 'parent22@example.com', 'Renu Verma', '9876543222', 'None', 10022),
+(20023, '2020 Street, City, State', 'parent23@example.com', 'Sanjay Mehta', '9876543223', 'None', 10023),
+(20024, '2121 Street, City, State', 'parent24@example.com', 'Neha Kumar', '9876543224', 'None', 10024),
+(20025, '2222 Street, City, State', 'parent25@example.com', 'Manoj Rao', '9876543225', 'None', 10025),
+(20026, '2323 Street, City, State', 'parent26@example.com', 'Geeta Singh', '9876543226', 'None', 10026),
+(20027, '2424 Street, City, State', 'parent27@example.com', 'Ramesh Joshi', '9876543227', 'None', 10027),
+(20028, '2525 Street, City, State', 'parent28@example.com', 'Sonia Sharma', '9876543228', 'None', 10028),
+(20029, '2626 Street, City, State', 'parent29@example.com', 'Raj Patel', '9876543229', 'None', 10029),
+(20030, '2727 Street, City, State', 'parent30@example.com', 'Poonam Verma', '9876543230', 'None', 10030);
+
+
+-- New 10 students with birthdates in 2012
+INSERT INTO students (student_id, address, admission_date, date_of_birth, email, gender, name, phone_number, profile_pic) VALUES
+(10031, '2828 Street, City, State', '2024-01-01', '2012-01-10', 'student31@example.com', 'Male', 'Ishaan Patel', '1234567831', 'profile31.jpg'),
+(10032, '2929 Street, City, State', '2024-01-01', '2012-02-14', 'student32@example.com', 'Female', 'Nisha Gupta', '1234567832', 'profile32.jpg'),
+(10033, '3030 Street, City, State', '2024-01-01', '2012-03-18', 'student33@example.com', 'Male', 'Aarav Sharma', '1234567833', 'profile33.jpg'),
+(10034, '3131 Street, City, State', '2024-01-01', '2012-04-22', 'student34@example.com', 'Female', 'Sanya Reddy', '1234567834', 'profile34.jpg'),
+(10035, '3232 Street, City, State', '2024-01-01', '2012-05-26', 'student35@example.com', 'Male', 'Vihaan Joshi', '1234567835', 'profile35.jpg'),
+(10036, '3333 Street, City, State', '2024-01-01', '2012-06-20', 'student36@example.com', 'Female', 'Riya Sharma', '1234567836', 'profile36.jpg'),
+(10037, '3434 Street, City, State', '2024-01-01', '2012-07-24', 'student37@example.com', 'Male', 'Reyansh Kumar', '1234567837', 'profile37.jpg'),
+(10038, '3535 Street, City, State', '2024-01-01', '2012-08-28', 'student38@example.com', 'Female', 'Ananya Singh', '1234567838', 'profile38.jpg'),
+(10039, '3636 Street, City, State', '2024-01-01', '2012-09-30', 'student39@example.com', 'Male', 'Ayaan Patel', '1234567839', 'profile39.jpg'),
+(10040, '3737 Street, City, State', '2024-01-01', '2012-10-31', 'student40@example.com', 'Female', 'Meher Verma', '1234567840', 'profile40.jpg');
+
+
+
+-- New 10 parents
+INSERT INTO parents (parent_id, address, email, name, phone_number, suggestions, student_id) VALUES
+(20031, '2828 Street, City, State', 'parent31@example.com', 'Rajesh Patel', '9876543231', 'None', 10031),
+(20032, '2929 Street, City, State', 'parent32@example.com', 'Sunita Gupta', '9876543232', 'None', 10032),
+(20033, '3030 Street, City, State', 'parent33@example.com', 'Amit Sharma', '9876543233', 'None', 10033),
+(20034, '3131 Street, City, State', 'parent34@example.com', 'Neelam Reddy', '9876543234', 'None', 10034),
+(20035, '3232 Street, City, State', 'parent35@example.com', 'Vijay Joshi', '9876543235', 'None', 10035),
+(20036, '3333 Street, City, State', 'parent36@example.com', 'Pooja Sharma', '9876543236', 'None', 10036),
+(20037, '3434 Street, City, State', 'parent37@example.com', 'Sandeep Kumar', '9876543237', 'None', 10037),
+(20038, '3535 Street, City, State', 'parent38@example.com', 'Rekha Singh', '9876543238', 'None', 10038),
+(20039, '3636 Street, City, State', 'parent39@example.com', 'Anil Patel', '9876543239', 'None', 10039),
+(20040, '3737 Street, City, State', 'parent40@example.com', 'Geeta Verma', '9876543240', 'None', 10040);
+
+
+
+-- New 10 students with birthdates in 2011
+INSERT INTO students (student_id, address, admission_date, date_of_birth, email, gender, name, phone_number, profile_pic) VALUES
+(10041, '3838 Street, City, State', '2024-01-01', '2011-01-12', 'student41@example.com', 'Male', 'Aditya Rao', '1234567841', 'profile41.jpg'),
+(10042, '3939 Street, City, State', '2024-01-01', '2011-02-15', 'student42@example.com', 'Female', 'Meera Sharma', '1234567842', 'profile42.jpg'),
+(10043, '4040 Street, City, State', '2024-01-01', '2011-03-20', 'student43@example.com', 'Male', 'Kartik Patel', '1234567843', 'profile43.jpg'),
+(10044, '4141 Street, City, State', '2024-01-01', '2011-04-25', 'student44@example.com', 'Female', 'Isha Desai', '1234567844', 'profile44.jpg'),
+(10045, '4242 Street, City, State', '2024-01-01', '2011-05-30', 'student45@example.com', 'Male', 'Rohan Kumar', '1234567845', 'profile45.jpg'),
+(10046, '4343 Street, City, State', '2024-01-01', '2011-06-14', 'student46@example.com', 'Female', 'Sonia Singh', '1234567846', 'profile46.jpg'),
+(10047, '4444 Street, City, State', '2024-01-01', '2011-07-19', 'student47@example.com', 'Male', 'Vivaan Jain', '1234567847', 'profile47.jpg'),
+(10048, '4545 Street, City, State', '2024-01-01', '2011-08-22', 'student48@example.com', 'Female', 'Aarti Mehta', '1234567848', 'profile48.jpg'),
+(10049, '4646 Street, City, State', '2024-01-01', '2011-09-28', 'student49@example.com', 'Male', 'Aryan Patel', '1234567849', 'profile49.jpg'),
+(10050, '4747 Street, City, State', '2024-01-01', '2011-10-30', 'student50@example.com', 'Female', 'Tanya Gupta', '1234567850', 'profile50.jpg');
+
+
+
+-- New 10 parents
+INSERT INTO parents (parent_id, address, email, name, phone_number, suggestions, student_id) VALUES
+(20041, '3838 Street, City, State', 'parent41@example.com', 'Rajeev Rao', '9876543241', 'None', 10041),
+(20042, '3939 Street, City, State', 'parent42@example.com', 'Rina Sharma', '9876543242', 'None', 10042),
+(20043, '4040 Street, City, State', 'parent43@example.com', 'Suresh Patel', '9876543243', 'None', 10043),
+(20044, '4141 Street, City, State', 'parent44@example.com', 'Pooja Desai', '9876543244', 'None', 10044),
+(20045, '4242 Street, City, State', 'parent45@example.com', 'Vikram Kumar', '9876543245', 'None', 10045),
+(20046, '4343 Street, City, State', 'parent46@example.com', 'Aarti Singh', '9876543246', 'None', 10046),
+(20047, '4444 Street, City, State', 'parent47@example.com', 'Raj Kumar', '9876543247', 'None', 10047),
+(20048, '4545 Street, City, State', 'parent48@example.com', 'Neha Mehta', '9876543248', 'None', 10048),
+(20049, '4646 Street, City, State', 'parent49@example.com', 'Manoj Patel', '9876543249', 'None', 10049),
+(20050, '4747 Street, City, State', 'parent50@example.com', 'Suman Gupta', '9876543250', 'None', 10050);
+
+
+
+-- New 10 students with birthdates in 2011
+INSERT INTO students (student_id, address, admission_date, date_of_birth, email, gender, name, phone_number, profile_pic) VALUES
+(10111, '9898 Street, City, State', '2024-01-01', '2011-01-15', 'tanishq.verma@gmail.com', 'Male', 'Tanishq Verma', '1234567821', 'profile111.jpg'),
+(10112, '9999 Street, City, State', '2024-01-01', '2011-02-20', 'swara.mishra@gmail.com', 'Female', 'Swara Mishra', '1234567822', 'profile112.jpg'),
+(10113, '10000 Street, City, State', '2024-01-01', '2011-03-10', 'krishna.agarwal@gmail.com', 'Male', 'Krishna Agarwal', '1234567823', 'profile113.jpg'),
+(10114, '10101 Street, City, State', '2024-01-01', '2011-04-05', 'nisha.kapoor@gmail.com', 'Female', 'Nisha Kapoor', '1234567824', 'profile114.jpg'),
+(10115, '10202 Street, City, State', '2024-01-01', '2011-05-22', 'arjun.singh@gmail.com', 'Male', 'Arjun Singh', '1234567825', 'profile115.jpg'),
+(10116, '10303 Street, City, State', '2024-01-01', '2011-06-18', 'sanya.kumar@gmail.com', 'Female', 'Sanya Kumar', '1234567826', 'profile116.jpg'),
+(10117, '10404 Street, City, State', '2024-01-01', '2011-07-12', 'rahul.bhatia@gmail.com', 'Male', 'Rahul Bhatia', '1234567827', 'profile117.jpg'),
+(10118, '10505 Street, City, State', '2024-01-01', '2011-08-25', 'isha.gupta@gmail.com', 'Female', 'Isha Gupta', '1234567828', 'profile118.jpg'),
+(10119, '10606 Street, City, State', '2024-01-01', '2011-09-20', 'ajay.sharma@gmail.com', 'Male', 'Ajay Sharma', '1234567829', 'profile119.jpg'),
+(10120, '10707 Street, City, State', '2024-01-01', '2011-10-15', 'ananya.singh@gmail.com', 'Female', 'Ananya Singh', '1234567830', 'profile120.jpg');
+
+
+
+-- New 10 parents
+INSERT INTO parents (parent_id, address, email, name, phone_number, suggestions, student_id) VALUES
+(20111, '9898 Street, City, State', 'tanishq.verma@gmail.com', 'Ravi Verma', '9876543321', 'None', 10111),
+(20112, '9999 Street, City, State', 'swara.mishra@gmail.com', 'Suresh Mishra', '9876543322', 'None', 10112),
+(20113, '10000 Street, City, State', 'krishna.agarwal@gmail.com', 'Neelam Agarwal', '9876543323', 'None', 10113),
+(20114, '10101 Street, City, State', 'nisha.kapoor@gmail.com', 'Raj Kapoor', '9876543324', 'None', 10114),
+(20115, '10202 Street, City, State', 'arjun.singh@gmail.com', 'Pooja Singh', '9876543325', 'None', 10115),
+(20116, '10303 Street, City, State', 'sanya.kumar@gmail.com', 'Anil Kumar', '9876543326', 'None', 10116),
+(20117, '10404 Street, City, State', 'rahul.bhatia@gmail.com', 'Neeta Bhatia', '9876543327', 'None', 10117),
+(20118, '10505 Street, City, State', 'isha.gupta@gmail.com', 'Vikram Gupta', '9876543328', 'None', 10118),
+(20119, '10606 Street, City, State', 'ajay.sharma@gmail.com', 'Suman Sharma', '9876543329', 'None', 10119),
+(20120, '10707 Street, City, State', 'ananya.singh@gmail.com', 'Ravi Singh', '9876543330', 'None', 10120);
+
+
+
+-- New 10 students with birthdates in 2010
+INSERT INTO students (student_id, address, admission_date, date_of_birth, email, gender, name, phone_number, profile_pic) VALUES
+(10051, '4848 Street, City, State', '2024-01-01', '2010-01-12', 'aditya.rao@gmail.com', 'Male', 'Aditya Rao', '1234567851', 'profile51.jpg'),
+(10052, '4949 Street, City, State', '2024-01-01', '2010-02-15', 'meera.sharma@gmail.com', 'Female', 'Meera Sharma', '1234567852', 'profile52.jpg'),
+(10053, '5050 Street, City, State', '2024-01-01', '2010-03-20', 'kartik.patel@gmail.com', 'Male', 'Kartik Patel', '1234567853', 'profile53.jpg'),
+(10054, '5151 Street, City, State', '2024-01-01', '2010-04-25', 'isha.desai@gmail.com', 'Female', 'Isha Desai', '1234567854', 'profile54.jpg'),
+(10055, '5252 Street, City, State', '2024-01-01', '2010-05-30', 'rohan.kumar@gmail.com', 'Male', 'Rohan Kumar', '1234567855', 'profile55.jpg'),
+(10056, '5353 Street, City, State', '2024-01-01', '2010-06-14', 'sonia.singh@gmail.com', 'Female', 'Sonia Singh', '1234567856', 'profile56.jpg'),
+(10057, '5454 Street, City, State', '2024-01-01', '2010-07-19', 'vivaan.jain@gmail.com', 'Male', 'Vivaan Jain', '1234567857', 'profile57.jpg'),
+(10058, '5555 Street, City, State', '2024-01-01', '2010-08-22', 'aarti.mehta@gmail.com', 'Female', 'Aarti Mehta', '1234567858', 'profile58.jpg'),
+(10059, '5656 Street, City, State', '2024-01-01', '2010-09-28', 'aryan.patel@gmail.com', 'Male', 'Aryan Patel', '1234567859', 'profile59.jpg'),
+(10060, '5757 Street, City, State', '2024-01-01', '2010-10-30', 'tanya.gupta@gmail.com', 'Female', 'Tanya Gupta', '1234567860', 'profile60.jpg');
+
+
+
+-- New 10 parents
+INSERT INTO parents (parent_id, address, email, name, phone_number, suggestions, student_id) VALUES
+(20051, '4848 Street, City, State', 'aditya.rao@gmail.com', 'Rajeev Rao', '9876543251', 'None', 10051),
+(20052, '4949 Street, City, State', 'meera.sharma@gmail.com', 'Rina Sharma', '9876543252', 'None', 10052),
+(20053, '5050 Street, City, State', 'kartik.patel@gmail.com', 'Suresh Patel', '9876543253', 'None', 10053),
+(20054, '5151 Street, City, State', 'isha.desai@gmail.com', 'Pooja Desai', '9876543254', 'None', 10054),
+(20055, '5252 Street, City, State', 'rohan.kumar@gmail.com', 'Vikram Kumar', '9876543255', 'None', 10055),
+(20056, '5353 Street, City, State', 'sonia.singh@gmail.com', 'Aarti Singh', '9876543256', 'None', 10056),
+(20057, '5454 Street, City, State', 'vivaan.jain@gmail.com', 'Raj Kumar', '9876543257', 'None', 10057),
+(20058, '5555 Street, City, State', 'aarti.mehta@gmail.com', 'Neha Mehta', '9876543258', 'None', 10058),
+(20059, '5656 Street, City, State', 'aryan.patel@gmail.com', 'Manoj Patel', '9876543259', 'None', 10059),
+(20060, '5757 Street, City, State', 'tanya.gupta@gmail.com', 'Suman Gupta', '9876543260', 'None', 10060);
+
+
+
+-- New 10 students with birthdates in 2010
+INSERT INTO students (student_id, address, admission_date, date_of_birth, email, gender, name, phone_number, profile_pic) VALUES
+(10121, '10808 Street, City, State', '2024-01-01', '2010-01-12', 'ravi.yadav@gmail.com', 'Male', 'Ravi Yadav', '1234567831', 'profile121.jpg'),
+(10122, '10909 Street, City, State', '2024-01-01', '2010-02-18', 'priya.singh@gmail.com', 'Female', 'Priya Singh', '1234567832', 'profile122.jpg'),
+(10123, '11010 Street, City, State', '2024-01-01', '2010-03-23', 'ajay.verma@gmail.com', 'Male', 'Ajay Verma', '1234567833', 'profile123.jpg'),
+(10124, '11111 Street, City, State', '2024-01-01', '2010-04-30', 'meera.kumar@gmail.com', 'Female', 'Meera Kumar', '1234567834', 'profile124.jpg'),
+(10125, '11212 Street, City, State', '2024-01-01', '2010-05-17', 'arjun.mishra@gmail.com', 'Male', 'Arjun Mishra', '1234567835', 'profile125.jpg'),
+(10126, '11313 Street, City, State', '2024-01-01', '2010-06-15', 'anita.gupta@gmail.com', 'Female', 'Anita Gupta', '1234567836', 'profile126.jpg'),
+(10127, '11414 Street, City, State', '2024-01-01', '2010-07-21', 'rohit.kapoor@gmail.com', 'Male', 'Rohit Kapoor', '1234567837', 'profile127.jpg'),
+(10128, '11515 Street, City, State', '2024-01-01', '2010-08-19', 'neha.sharma@gmail.com', 'Female', 'Neha Sharma', '1234567838', 'profile128.jpg'),
+(10129, '11616 Street, City, State', '2024-01-01', '2010-09-14', 'suresh.bhatia@gmail.com', 'Male', 'Suresh Bhatia', '1234567839', 'profile129.jpg'),
+(10130, '11717 Street, City, State', '2024-01-01', '2010-10-26', 'divya.yadav@gmail.com', 'Female', 'Divya Yadav', '1234567840', 'profile130.jpg');
+
+
+
+-- New 10 parents
+INSERT INTO parents (parent_id, address, email, name, phone_number, suggestions, student_id) VALUES
+(20121, '10808 Street, City, State', 'ravi.yadav@gmail.com', 'Deepak Yadav', '9876543331', 'None', 10121),
+(20122, '10909 Street, City, State', 'priya.singh@gmail.com', 'Sanjay Singh', '9876543332', 'None', 10122),
+(20123, '11010 Street, City, State', 'ajay.verma@gmail.com', 'Anjali Verma', '9876543333', 'None', 10123),
+(20124, '11111 Street, City, State', 'meera.kumar@gmail.com', 'Raj Kumar', '9876543334', 'None', 10124),
+(20125, '11212 Street, City, State', 'arjun.mishra@gmail.com', 'Sunita Mishra', '9876543335', 'None', 10125),
+(20126, '11313 Street, City, State', 'anita.gupta@gmail.com', 'Vikram Gupta', '9876543336', 'None', 10126),
+(20127, '11414 Street, City, State', 'rohit.kapoor@gmail.com', 'Neeta Kapoor', '9876543337', 'None', 10127),
+(20128, '11515 Street, City, State', 'neha.sharma@gmail.com', 'Ravi Sharma', '9876543338', 'None', 10128),
+(20129, '11616 Street, City, State', 'suresh.bhatia@gmail.com', 'Kiran Bhatia', '9876543339', 'None', 10129),
+(20130, '11717 Street, City, State', 'divya.yadav@gmail.com', 'Rajesh Yadav', '9876543340', 'None', 10130);
+
+
+
+-- New 10 students with birthdates in 2009
+INSERT INTO students (student_id, address, admission_date, date_of_birth, email, gender, name, phone_number, profile_pic) VALUES
+(10061, '5858 Street, City, State', '2024-01-01', '2009-01-11', 'rajesh.malik@gmail.com', 'Male', 'Rajesh Malik', '1234567861', 'profile61.jpg'),
+(10062, '5959 Street, City, State', '2024-01-01', '2009-02-15', 'anupriya.malhotra@gmail.com', 'Female', 'Anupriya Malhotra', '1234567862', 'profile62.jpg'),
+(10063, '6060 Street, City, State', '2024-01-01', '2009-03-22', 'karan.sharma@gmail.com', 'Male', 'Karan Sharma', '1234567863', 'profile63.jpg'),
+(10064, '6161 Street, City, State', '2024-01-01', '2009-04-29', 'neha.patel@gmail.com', 'Female', 'Neha Patel', '1234567864', 'profile64.jpg'),
+(10065, '6262 Street, City, State', '2024-01-01', '2009-05-18', 'rohit.yadav@gmail.com', 'Male', 'Rohit Yadav', '1234567865', 'profile65.jpg'),
+(10066, '6363 Street, City, State', '2024-01-01', '2009-06-24', 'divya.agarwal@gmail.com', 'Female', 'Divya Agarwal', '1234567866', 'profile66.jpg'),
+(10067, '6464 Street, City, State', '2024-01-01', '2009-07-30', 'manish.jha@gmail.com', 'Male', 'Manish Jha', '1234567867', 'profile67.jpg'),
+(10068, '6565 Street, City, State', '2024-01-01', '2009-08-18', 'pallavi.shukla@gmail.com', 'Female', 'Pallavi Shukla', '1234567868', 'profile68.jpg'),
+(10069, '6666 Street, City, State', '2024-01-01', '2009-09-23', 'vikas.singh@gmail.com', 'Male', 'Vikas Singh', '1234567869', 'profile69.jpg'),
+(10070, '6767 Street, City, State', '2024-01-01', '2009-10-17', 'kanika.sharma@gmail.com', 'Female', 'Kanika Sharma', '1234567870', 'profile70.jpg');
+
+
+
+-- New 10 parents
+INSERT INTO parents (parent_id, address, email, name, phone_number, suggestions, student_id) VALUES
+(20061, '5858 Street, City, State', 'rajesh.malik@gmail.com', 'Sunil Malik', '9876543261', 'None', 10061),
+(20062, '5959 Street, City, State', 'anupriya.malhotra@gmail.com', 'Poonam Malhotra', '9876543262', 'None', 10062),
+(20063, '6060 Street, City, State', 'karan.sharma@gmail.com', 'Ravi Sharma', '9876543263', 'None', 10063),
+(20064, '6161 Street, City, State', 'neha.patel@gmail.com', 'Sanjay Patel', '9876543264', 'None', 10064),
+(20065, '6262 Street, City, State', 'rohit.yadav@gmail.com', 'Meera Yadav', '9876543265', 'None', 10065),
+(20066, '6363 Street, City, State', 'divya.agarwal@gmail.com', 'Rajesh Agarwal', '9876543266', 'None', 10066),
+(20067, '6464 Street, City, State', 'manish.jha@gmail.com', 'Sunita Jha', '9876543267', 'None', 10067),
+(20068, '6565 Street, City, State', 'pallavi.shukla@gmail.com', 'Rajeev Shukla', '9876543268', 'None', 10068),
+(20069, '6666 Street, City, State', 'vikas.singh@gmail.com', 'Suman Singh', '9876543269', 'None', 10069),
+(20070, '6767 Street, City, State', 'kanika.sharma@gmail.com', 'Amit Sharma', '9876543270', 'None', 10070);
+
+
+
+-- New 10 students with birthdates in 2009
+INSERT INTO students (student_id, address, admission_date, date_of_birth, email, gender, name, phone_number, profile_pic) VALUES
+(10071, '11818 Street, City, State', '2024-01-01', '2009-01-14', 'ajay.kumar@gmail.com', 'Male', 'Ajay Kumar', '1234567841', 'profile071.jpg'),
+(10072, '11919 Street, City, State', '2024-01-01', '2009-02-25', 'sunita.agarwal@gmail.com', 'Female', 'Sunita Agarwal', '1234567842', 'profile072.jpg'),
+(10073, '12020 Street, City, State', '2024-01-01', '2009-03-17', 'rahul.sharma@gmail.com', 'Male', 'Rahul Sharma', '1234567843', 'profile073.jpg'),
+(10074, '12121 Street, City, State', '2024-01-01', '2009-04-22', 'neelam.singh@gmail.com', 'Female', 'Neelam Singh', '1234567844', 'profile074.jpg'),
+(10075, '12222 Street, City, State', '2024-01-01', '2009-05-19', 'vinay.kumar@gmail.com', 'Male', 'Vinay Kumar', '1234567845', 'profile075.jpg'),
+(10076, '12323 Street, City, State', '2024-01-01', '2009-06-14', 'pallavi.rai@gmail.com', 'Female', 'Pallavi Rai', '1234567846', 'profile076.jpg'),
+(10077, '12424 Street, City, State', '2024-01-01', '2009-07-11', 'vijay.yadav@gmail.com', 'Male', 'Vijay Yadav', '1234567847', 'profile077.jpg'),
+(10078, '12525 Street, City, State', '2024-01-01', '2009-08-29', 'sonia.sharma@gmail.com', 'Female', 'Sonia Sharma', '1234567848', 'profile078.jpg'),
+(10079, '12626 Street, City, State', '2024-01-01', '2009-09-30', 'manoj.verma@gmail.com', 'Male', 'Manoj Verma', '1234567849', 'profile079.jpg'),
+(10080, '12727 Street, City, State', '2024-01-01', '2009-10-25', 'deepa.gupta@gmail.com', 'Female', 'Deepa Gupta', '1234567850', 'profile080.jpg');
+
+
+
+-- New 10 parents
+INSERT INTO parents (parent_id, address, email, name, phone_number, suggestions, student_id) VALUES
+(20071, '11818 Street, City, State', 'ajay.kumar@gmail.com', 'Raj Kumar', '9876543341', 'None', 10071),
+(20072, '11919 Street, City, State', 'sunita.agarwal@gmail.com', 'Ramesh Agarwal', '9876543342', 'None', 10072),
+(20073, '12020 Street, City, State', 'rahul.sharma@gmail.com', 'Suman Sharma', '9876543343', 'None', 10073),
+(20074, '12121 Street, City, State', 'neelam.singh@gmail.com', 'Rajeev Singh', '9876543344', 'None', 10074),
+(20075, '12222 Street, City, State', 'vinay.kumar@gmail.com', 'Sita Kumar', '9876543345', 'None', 10075),
+(20076, '12323 Street, City, State', 'pallavi.rai@gmail.com', 'Amit Rai', '9876543346', 'None', 10076),
+(20077, '12424 Street, City, State', 'vijay.yadav@gmail.com', 'Rita Yadav', '9876543347', 'None', 10077),
+(20078, '12525 Street, City, State', 'sonia.sharma@gmail.com', 'Ravi Sharma', '9876543348', 'None', 10078),
+(20079, '12626 Street, City, State', 'manoj.verma@gmail.com', 'Kiran Verma', '9876543349', 'None', 10079),
+(20080, '12727 Street, City, State', 'deepa.gupta@gmail.com', 'Ramesh Gupta', '9876543350', 'None', 10080);

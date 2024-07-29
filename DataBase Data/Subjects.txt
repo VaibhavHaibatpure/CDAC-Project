@@ -1,0 +1,96 @@
+-- For Class 5
+INSERT INTO subjects (subject_name, class_id, staff_id) VALUES
+('Hindi', 5, 30005),
+('Environmental Studies', 5, 30017),
+('Marathi', 5, 30007),
+('Maths', 5, 30009),
+('English', 5, 30009),
+('Science', 5, 30012);
+
+
+-- For Class 6
+INSERT INTO subjects (subject_name, class_id, staff_id) VALUES
+('Geography', 6, 30015),
+('Hindi', 6, 30006),
+('History & Civics', 6, 30017),
+('Marathi', 6, 30007),
+('Maths', 6, 30009),
+('Science', 6, 30012),
+('English', 6, 30013);
+
+
+-- For Class 7
+INSERT INTO subjects (subject_name, class_id, staff_id) VALUES
+('English', 7, 30013),
+('Geography', 7, 30015),
+('Hindi', 7, 30005),
+('History & Civics', 7, 30017),
+('Marathi', 7, 30007),
+('Maths', 7, 30009),
+('Science', 7, 30012);
+
+
+-- For Class 8 (Hindi)
+INSERT INTO subjects (subject_name, class_id, staff_id) VALUES
+('English', 8, 30014),
+('Geography', 8, 30016),
+('Hindi', 8, 30005),
+('History & Civics', 8, 30017),
+('Marathi', 8, 30008),
+('Maths', 8, 30009),
+('Science', 8, 30012);
+
+
+-- For Class 8 (Sanskrit)
+INSERT INTO subjects (subject_name, class_id, staff_id) VALUES
+('English', 9, 30014),
+('Geography', 9, 30016),
+('History & Civics', 9, 30017),
+('Marathi', 9, 30008),
+('Maths', 9, 30009),
+('Sanskrit', 9, 30019),
+('Science', 9, 30012);
+
+
+-- For Class 9 (Hindi)
+INSERT INTO subjects (subject_name, class_id, staff_id) VALUES
+('English', 10, 30013),
+('Geography', 10, 30016),
+('Hindi', 10, 30005),
+('History & Political Science', 10, 30017),
+('Marathi', 10, 30008),
+('Maths', 10, 30009),
+('Science', 10, 30012);
+
+
+-- For Class 9 (Sanskrit)
+INSERT INTO subjects (subject_name, class_id, staff_id) VALUES
+('English', 11, 30013),
+('Geography', 11, 30015),
+('History & Political Science', 11, 30017),
+('Marathi', 11, 30008),
+('Maths', 11, 30009),
+('Sanskrit', 11, 30019),
+('Science', 11, 30011);
+
+
+-- For Class 10 (Hindi)
+INSERT INTO subjects (subject_name, class_id, staff_id) VALUES
+('English', 12, 30013),
+('Geography', 12, 30016),
+('Hindi', 12, 30005),
+('History & Political Science', 12, 30018),
+('Marathi', 12, 30008),
+('Maths', 12, 30009),
+('Science', 12, 30012);
+
+
+-- For Class 10 (Sanskrit)
+INSERT INTO subjects (subject_name, class_id, staff_id) VALUES
+('English', 13, 30013),
+('Geography', 13, 30016),
+('History & Political Science', 13, 30018),
+('Marathi', 13, 30008),
+('Maths', 13, 30009),
+('Sanskrit', 13, 30019),
+('Science', 13, 30012);

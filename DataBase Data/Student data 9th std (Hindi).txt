@@ -1,0 +1,27 @@
+-- New 10 students with birthdates in 2010
+INSERT INTO students (student_id, address, admission_date, date_of_birth, email, gender, name, phone_number, profile_pic) VALUES
+(10051, '4848 Street, City, State', '2024-01-01', '2010-01-12', 'aditya.rao@gmail.com', 'Male', 'Aditya Rao', '1234567851', 'profile51.jpg'),
+(10052, '4949 Street, City, State', '2024-01-01', '2010-02-15', 'meera.sharma@gmail.com', 'Female', 'Meera Sharma', '1234567852', 'profile52.jpg'),
+(10053, '5050 Street, City, State', '2024-01-01', '2010-03-20', 'kartik.patel@gmail.com', 'Male', 'Kartik Patel', '1234567853', 'profile53.jpg'),
+(10054, '5151 Street, City, State', '2024-01-01', '2010-04-25', 'isha.desai@gmail.com', 'Female', 'Isha Desai', '1234567854', 'profile54.jpg'),
+(10055, '5252 Street, City, State', '2024-01-01', '2010-05-30', 'rohan.kumar@gmail.com', 'Male', 'Rohan Kumar', '1234567855', 'profile55.jpg'),
+(10056, '5353 Street, City, State', '2024-01-01', '2010-06-14', 'sonia.singh@gmail.com', 'Female', 'Sonia Singh', '1234567856', 'profile56.jpg'),
+(10057, '5454 Street, City, State', '2024-01-01', '2010-07-19', 'vivaan.jain@gmail.com', 'Male', 'Vivaan Jain', '1234567857', 'profile57.jpg'),
+(10058, '5555 Street, City, State', '2024-01-01', '2010-08-22', 'aarti.mehta@gmail.com', 'Female', 'Aarti Mehta', '1234567858', 'profile58.jpg'),
+(10059, '5656 Street, City, State', '2024-01-01', '2010-09-28', 'aryan.patel@gmail.com', 'Male', 'Aryan Patel', '1234567859', 'profile59.jpg'),
+(10060, '5757 Street, City, State', '2024-01-01', '2010-10-30', 'tanya.gupta@gmail.com', 'Female', 'Tanya Gupta', '1234567860', 'profile60.jpg');
+
+
+
+-- New 10 parents
+INSERT INTO parents (parent_id, address, email, name, phone_number, suggestions, student_id) VALUES
+(20051, '4848 Street, City, State', 'aditya.rao@gmail.com', 'Rajeev Rao', '9876543251', 'None', 10051),
+(20052, '4949 Street, City, State', 'meera.sharma@gmail.com', 'Rina Sharma', '9876543252', 'None', 10052),
+(20053, '5050 Street, City, State', 'kartik.patel@gmail.com', 'Suresh Patel', '9876543253', 'None', 10053),
+(20054, '5151 Street, City, State', 'isha.desai@gmail.com', 'Pooja Desai', '9876543254', 'None', 10054),
+(20055, '5252 Street, City, State', 'rohan.kumar@gmail.com', 'Vikram Kumar', '9876543255', 'None', 10055),
+(20056, '5353 Street, City, State', 'sonia.singh@gmail.com', 'Aarti Singh', '9876543256', 'None', 10056),
+(20057, '5454 Street, City, State', 'vivaan.jain@gmail.com', 'Raj Kumar', '9876543257', 'None', 10057),
+(20058, '5555 Street, City, State', 'aarti.mehta@gmail.com', 'Neha Mehta', '9876543258', 'None', 10058),
+(20059, '5656 Street, City, State', 'aryan.patel@gmail.com', 'Manoj Patel', '9876543259', 'None', 10059),
+(20060, '5757 Street, City, State', 'tanya.gupta@gmail.com', 'Suman Gupta', '9876543260', 'None', 10060);

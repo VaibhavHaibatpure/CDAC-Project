@@ -38,7 +38,7 @@ public class User {
 
 
     public enum Role {
-        Student, Parent, Staff
+        Student, Parent, Staff, Admin
     }
     
     

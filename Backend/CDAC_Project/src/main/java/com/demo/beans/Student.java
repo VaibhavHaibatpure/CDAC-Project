@@ -1,6 +1,15 @@
 package com.demo.beans;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
 
 @Entity
 @Table(name = "Students")
@@ -24,6 +33,11 @@ public class Student {
 
     @OneToOne(mappedBy = "student")
     private User user;
+    
+    @ManyToOne
+    @JoinColumn(name = "class_id") // Column name should match the database schema
+    private Classes classes;
+
 
     public enum Gender {
         Male, Female, OTHER
@@ -33,22 +47,10 @@ public class Student {
 		super();
 	}
 
-	public Student(String name, String dateOfBirth, String address, String phoneNumber, String email, Gender gender,
-			String profilePic, String admissionDate, User user) {
-		super();
-		this.name = name;
-		this.dateOfBirth = dateOfBirth;
-		this.address = address;
-		this.phoneNumber = phoneNumber;
-		this.email = email;
-		this.gender = gender;
-		this.profilePic = profilePic;
-		this.admissionDate = admissionDate;
-		this.user = user;
-	}
+	
 
 	public Student(Long studentId, String name, String dateOfBirth, String address, String phoneNumber, String email,
-			Gender gender, String profilePic, String admissionDate, User user) {
+			Gender gender, String profilePic, String admissionDate, User user, Classes classes) {
 		super();
 		this.studentId = studentId;
 		this.name = name;
@@ -60,7 +62,27 @@ public class Student {
 		this.profilePic = profilePic;
 		this.admissionDate = admissionDate;
 		this.user = user;
+		this.classes = classes;
 	}
+
+
+
+	public Student(String name, String dateOfBirth, String address, String phoneNumber, String email, Gender gender,
+			String profilePic, String admissionDate, User user, Classes classes) {
+		super();
+		this.name = name;
+		this.dateOfBirth = dateOfBirth;
+		this.address = address;
+		this.phoneNumber = phoneNumber;
+		this.email = email;
+		this.gender = gender;
+		this.profilePic = profilePic;
+		this.admissionDate = admissionDate;
+		this.user = user;
+		this.classes = classes;
+	}
+
+
 
 	public Long getStudentId() {
 		return studentId;
@@ -141,6 +163,19 @@ public class Student {
 	public void setUser(User user) {
 		this.user = user;
 	}
+
+	
+	public Classes getClasses() {
+		return classes;
+	}
+
+
+
+	public void setClasses(Classes classes) {
+		this.classes = classes;
+	}
+
+
 
 	@Override
 	public String toString() {

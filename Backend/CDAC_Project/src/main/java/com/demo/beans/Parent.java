@@ -26,6 +26,15 @@ public class Parent {
 	public Parent() {
 		super();
 	}
+	
+	
+
+	public Parent(Long parentId) {
+		super();
+		this.parentId = parentId;
+	}
+
+
 
 	public Parent(User user, String name, String email, String phoneNumber, String address, String suggestions,
 			Student student) {

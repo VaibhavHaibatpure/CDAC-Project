@@ -1,7 +1,17 @@
 package com.demo.beans;
 
-import javax.persistence.*;
 import java.util.Set;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 @Table(name = "Classes")
@@ -20,11 +30,19 @@ public class Classes {
     private Integer totalClassesTakes;
 
     @OneToMany(mappedBy = "classes")
+    @JsonIgnore
     private Set<StudentClasses> studentClasses;
 
 	public Classes() {
 		super();
 	}
+
+	
+	public Classes(Long classId) {
+		super();
+		this.classId = classId;
+	}
+
 
 	public Classes(String className, Staff staff, Integer totalClassesTakes, Set<StudentClasses> studentClasses) {
 		super();

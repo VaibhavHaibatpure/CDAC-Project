@@ -33,4 +33,10 @@ public class UserServiceImpl implements UserService {
     public void deleteById(long id) {
         UserDao.deleteById(id);
     }
+
+	@Override
+	public User findByUsername(String username) {
+		// TODO Auto-generated method stub
+		return UserDao.findByUsername(username);
+	}
 }

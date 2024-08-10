@@ -33,4 +33,15 @@ public class StudentServiceImpl implements StudentService {
     public void deleteStudent(Long studentId) {
         studentDao.deleteById(studentId);
     }
+
+	@Override
+	public List<Long> findClassIdsByStudentIds(Long studentIds) {
+		// TODO Auto-generated method stub
+		return studentDao.findClassIdsByStudentIds(studentIds);
+	}
+	
+    @Override
+    public List<Student> findStudentsByClassId(Long classId) {
+        return studentDao.findStudentsByClassId(classId);
+    }
 }

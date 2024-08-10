@@ -33,4 +33,11 @@ public class ParentServiceImpl implements ParentService {
     public void deleteParent(Long parentId) {
         parentDao.deleteById(parentId);
     }
+
+    @Override
+    public List<Long> getClassIdsByParentId(Long parentId) {
+        return parentDao.getClassIdsForParent(parentId);
+    }
 }
+
+

@@ -19,4 +19,5 @@ public interface ClassesService {
 	Classes getByName(String id);
 	
 	List<Classes> findClassesByStaff(String staffid);
+	void updateTotalClassesTakes(Integer totalClassesTakes, Long classId);
 }

@@ -8,4 +8,5 @@ public interface ParentService {
     Parent getParentById(Long parentId);
     Parent saveParent(Parent parent);
     void deleteParent(Long parentId);
+	List<Long> getClassIdsByParentId(Long parentId);
 }

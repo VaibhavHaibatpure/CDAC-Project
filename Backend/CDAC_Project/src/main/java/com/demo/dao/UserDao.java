@@ -9,6 +9,8 @@ import com.demo.beans.User;
 @Repository
 public interface UserDao extends JpaRepository<User, Long> {
 
+	User findByUsername(String username);
+
 	//List<User> findAll();
     // Additional custom queries can be added here if needed
 }
